@@ -9,6 +9,19 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.2.6"
+    "@tailwindcss/vite": "^4.0.6",
+    "astro": "^5.2.6",
+    "flowbite": "^3.1.2",
+    "typed.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6"
+  },
+  "module": "index.ts",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }
