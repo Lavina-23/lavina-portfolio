@@ -1,8 +1,16 @@
+---
+import sistemTOEIC from "../assets/img/dash-peserta.png";
+import growplus from "../assets/img/growplus.png";
+import prestify from "../assets/img/prestify.png";
+import quickjob from "../assets/img/quickjob.png";
+---
+
 <section>
+  <!-- Work Experiences -->
   <div class="border-3 border-main-red">
     <div class="bg-main-red text-main-white p-2">
       <h1 class="text-xl font-semibold text-main-white font-serif">
-        Experiences
+        Work Experiences
       </h1>
     </div>
     <div class="p-10 grid gap-10">
@@ -21,7 +29,7 @@
           <div class="text-main-red w-full">
             <div class="flex justify-between">
               <h1 class="text-2xl font-extrabold font-serif">
-                Website Designer
+                Website Developer
               </h1>
               <span class="flex items-center text-sm font-semibold font-basic"
                 >June 2023 | 1 month</span
@@ -39,19 +47,20 @@
             </div>
             <ul class="font-basic mt-3 ml-4 list-decimal">
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-                accusamus eius.
+                Develop and design the Archtrium corporate landing page
+                utilizing the WordPress Elementor platform, while integrating
+                custom CSS scripts to achieve specialized functionality and
+                visual distinction.
               </li>
               <li>
-                Adipisci explicabo molestiae vel placeat corrupti modi sed
-                pariatur.
+                Curate, compose, and organize all website content using
+                user-friendly and professional language to clearly articulate
+                the company's services in architecture and construction.
               </li>
               <li>
-                Amet, consectetur adipisicing elit. Quidem accusamus eius,
-                adipisci explicabo
-              </li>
-              <li>
-                Explicabo molestiae vel placeat corrupti modi sed pariatur.
+                Create a detailed and visually compelling project portfolio
+                section on the website to effectively showcase the company’s
+                completed architectural and construction work.
               </li>
             </ul>
             <div
@@ -93,24 +102,18 @@
               <div
                 class="border-2 border-dashed border-main-red w-fit p-1 font-basic font-semibold text-xs"
               >
-                <span>Freelance</span>
+                <span>Internship</span>
               </div>
             </div>
             <ul class="font-basic mt-3 ml-4 list-decimal">
               <li>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-                accusamus eius.
+                Develop a personal portfolio website utilizing a pre-existing
+                template to ensure rapid deployment and a polished aesthetic.
               </li>
               <li>
-                Adipisci explicabo molestiae vel placeat corrupti modi sed
-                pariatur.
-              </li>
-              <li>
-                Amet, consectetur adipisicing elit. Quidem accusamus eius,
-                adipisci explicabo
-              </li>
-              <li>
-                Explicabo molestiae vel placeat corrupti modi sed pariatur.
+                Engineer a dynamic portfolio website incorporating basic CRUD
+                (Create, Read, Update, Delete) functionality to manage and
+                display project data.
               </li>
             </ul>
             <div
@@ -127,6 +130,335 @@
               </div>
               <div class="bg-main-red w-fit py-1 px-3">
                 <span>MySql</span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- Projects -->
+  <div class="border-3 border-main-red mt-10">
+    <div class="bg-main-red text-main-white p-2">
+      <h1 class="text-xl font-semibold text-main-white font-serif">Projects</h1>
+    </div>
+    <div class="p-10 grid gap-10">
+      <ul class="grid gap-10">
+        <!-- Sistem TOEIC -->
+        <img src={sistemTOEIC.src} alt="" fetchpriority="high" />
+        <li class="flex gap-5 w-full">
+          <svg
+            class="w-6 h-6"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+            ><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <path
+              fill="#86302b"
+              d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            ></path></svg
+          >
+          <div class="text-main-red w-full">
+            <div class="flex justify-between">
+              <a
+                class="text-2xl font-extrabold font-serif"
+                href="https://github.com/Lavina-23/Prestify"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Polinema TOEIC Test Registration System</a
+              >
+              <a
+                href="https://github.com/Lavina-23/sistem-toeic"
+                target="_blank"
+                rel="noopener noreferrer">Project Link 🚀</a
+              >
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium font-basic"
+                >Fullstack Developer</span
+              >
+              <!-- <div
+                class="border-2 border-dashed border-main-red w-fit p-1 font-basic font-semibold text-xs"
+              >
+                <span>Fullstack Developer</span>
+              </div> -->
+            </div>
+            <ul class="font-basic mt-3 ml-4 list-decimal">
+              <li>
+                Developed both front-end and back-end components of the TOEIC
+                test registration system.
+              </li>
+              <li>
+                Designed a responsive and user-friendly interface to enhance the
+                registration experience for applicants.
+              </li>
+              <li>
+                Designed and optimized database structures to support efficient
+                data storage and retrieval.
+              </li>
+              <li>
+                Implemented RESTful APIs to ensure smooth communication between
+                client and server.
+              </li>
+              <li>
+                Integrated real-time form validation to minimize registration
+                errors.
+              </li>
+              <li>
+                Collaborated with team members on system testing, debugging, and
+                performance optimization.
+              </li>
+              <li>
+                Deployed the system and ensured reliability, scalability, and
+                data security.
+              </li>
+              <li>
+                Contributed to improving the efficiency and transparency of the
+                TOEIC registration process for both users and administrators.
+              </li>
+            </ul>
+            <div
+              class="mt-4 gap-2 font-basic font-medium text-xs text-main-white flex"
+            >
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>Laravel</span>
+              </div>
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>Twilio</span>
+              </div>
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>MySql</span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- Prestify -->
+        <img src={prestify.src} alt="" fetchpriority="high" />
+        <li class="flex gap-5 w-full">
+          <svg
+            class="w-6 h-6"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+            ><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <path
+              fill="#86302b"
+              d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            ></path></svg
+          >
+          <div class="text-main-red w-full">
+            <div class="flex justify-between">
+              <a
+                class="text-2xl font-extrabold font-serif"
+                href="https://github.com/Lavina-23/Prestify"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Prestify-Polinema Student Achievement Recording System</a
+              >
+              <!-- <span class="flex items-center text-sm font-semibold font-basic"
+                >June 2021 - November 2021 | 6 month</span
+              > -->
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium font-basic"
+                >Fullstack Developer</span
+              >
+              <div
+                class="border-2 border-dashed border-main-red w-fit p-1 font-basic font-semibold text-xs"
+              >
+                <a
+                  href="https://github.com/Lavina-23/Prestify"
+                  target="_blank"
+                  rel="noopener noreferrer">Project Link 🚀</a
+                >
+              </div>
+            </div>
+            <ul class="font-basic mt-3 ml-4 list-decimal">
+              <li>
+                Designed and developed a web-based system to record and monitor
+                student achievements.
+              </li>
+              <li>
+                Implemented an MVC architecture in PHP to ensure clean code
+                organization and maintainability.
+              </li>
+              <li>
+                Built dynamic modules for managing achievements, students,
+                supervisors, and competition data.
+              </li>
+              <li>
+                Integrated SQL Server for structured data storage and optimized
+                query performance.
+              </li>
+              <li>
+                Designed responsive and modern user interfaces using Tailwind
+                CSS and Flowbite components.
+              </li>
+            </ul>
+            <div
+              class="mt-4 gap-2 font-basic font-medium text-xs text-main-white flex"
+            >
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>PHP</span>
+              </div>
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>Microsoft SQL Server</span>
+              </div>
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- Growplus -->
+        <img src={growplus.src} alt="" fetchpriority="high" />
+        <li class="flex gap-5 w-full">
+          <svg
+            class="w-6 h-6"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+            ><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <path
+              fill="#86302b"
+              d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            ></path></svg
+          >
+          <div class="text-main-red w-full">
+            <div class="flex justify-between">
+              <a
+                class="text-2xl font-extrabold font-serif"
+                href="https://github.com/HaikalMuhammadRafli/growplus"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Growplus: Digital Nutrition Assistant to Prevent Child Stunting</a
+              >
+              <!-- <span class="flex items-center text-sm font-semibold font-basic"
+                >June 2021 - November 2021 | 6 month</span
+              > -->
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium font-basic"
+                >Backend Developer</span
+              >
+              <div
+                class="border-2 border-dashed border-main-red w-fit p-1 font-basic font-semibold text-xs"
+              >
+                <a
+                  href="https://github.com/HaikalMuhammadRafli/growplus"
+                  target="_blank"
+                  rel="noopener noreferrer">Project Link 🚀</a
+                >
+              </div>
+            </div>
+            <ul class="font-basic mt-3 ml-4 list-decimal">
+              <li>
+                Developed a digital platform to assist mothers in monitoring
+                nutrition and preventing child stunting.
+              </li>
+              <li>
+                Designed and implemented the database structure to manage
+                maternal health records, nutritional data, and vaccination
+                schedules.
+              </li>
+              <li>
+                Developed a vaccination notification feature to remind users of
+                upcoming or missed immunizations.
+              </li>
+              <li>
+                Built responsive and user-friendly interfaces for inputting and
+                viewing nutritional and health information for mobile device.
+              </li>
+            </ul>
+            <div
+              class="mt-4 gap-2 font-basic font-medium text-xs text-main-white flex"
+            >
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>PHP</span>
+              </div>
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>Microsoft SQL Server</span>
+              </div>
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>Tailwind CSS</span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <!-- Quickjob -->
+        <img src={quickjob.src} alt="" fetchpriority="high" />
+        <li class="flex gap-5 w-full">
+          <svg
+            class="w-6 h-6"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+            ><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+            <path
+              fill="#86302b"
+              d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+            ></path></svg
+          >
+          <div class="text-main-red w-full">
+            <div class="flex justify-between">
+              <a
+                class="text-2xl font-extrabold font-serif"
+                href="https://github.com/Lavina-23/quick-job"
+                target="_blank"
+                rel="noopener noreferrer"
+                >QuickJob: An on-demand freelance platform for decent work and
+                sustainable economic growth</a
+              >
+              <!-- <span class="flex items-center text-sm font-semibold font-basic"
+                >June 2021 - November 2021 | 6 month</span
+              > -->
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="text-sm font-medium font-basic"
+                >Fullstack Developer</span
+              >
+              <div
+                class="border-2 border-dashed border-main-red w-fit p-1 font-basic font-semibold text-xs"
+              >
+                <a
+                  href="https://github.com/Lavina-23/quick-job"
+                  target="_blank"
+                  rel="noopener noreferrer">Project Link 🚀</a
+                >
+              </div>
+            </div>
+            <ul class="font-basic mt-3 ml-4 list-decimal">
+              <li>
+                Developed a responsive job listing web application using React.
+              </li>
+              <li>
+                Designed and implemented reusable UI components for job cards,
+                filters, and detail pages.
+              </li>
+              <li>
+                Managed client-side routing to display job details dynamically
+                without reloading the page.
+              </li>
+              <li>
+                Improved user experience by implementing state management to
+                preserve data across navigation and refresh actions.
+              </li>
+              <li>
+                Integrated API calls to fetch and display real-time job data
+                efficiently.
+              </li>
+              <li>
+                Collaborated with backend developers to ensure smooth data flow
+                and consistent API integration.
+              </li>
+            </ul>
+            <div
+              class="mt-4 gap-2 font-basic font-medium text-xs text-main-white flex"
+            >
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>Typescript</span>
+              </div>
+              <div class="bg-main-red w-fit py-1 px-3">
+                <span>Tailwind CSS</span>
               </div>
             </div>
           </div>
