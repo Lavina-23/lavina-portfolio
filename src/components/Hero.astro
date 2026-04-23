@@ -31,8 +31,9 @@ import MyProfile from "../assets/img/my-profile.png";
         <div class="flex mt-4 sm:justify-end sm:mt-0 gap-5">
           <!-- cv -->
           <a
-            href="https://drive.google.com/drive/u/1/folders/1DB4XrttVvqHqwbwIMVS-tsASaqHjrpCr"
+            href="https://drive.google.com/file/d/19vfkABcad_NNsH_zuQnT9Q3Ix0_l1FuL/view?usp=sharing"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            target="_blank"
           >
             <svg
               class="w-6 h-6"
@@ -51,6 +52,7 @@ import MyProfile from "../assets/img/my-profile.png";
           <a
             href="mailto:lavina8000@gmail.com"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            target="_blank"
           >
             <svg
               class="w-6 h-6"
@@ -68,6 +70,7 @@ import MyProfile from "../assets/img/my-profile.png";
           <a
             href="https://github.com/Lavina-23"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            target="_blank"
           >
             <svg
               class="w-6 h-6"
@@ -85,6 +88,7 @@ import MyProfile from "../assets/img/my-profile.png";
           <a
             href="https://www.linkedin.com/in/lavina-a3151327a/"
             class="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+            target="_blank"
           >
             <svg
               class="w-6 h-6"
@@ -105,7 +109,14 @@ import MyProfile from "../assets/img/my-profile.png";
 </section>
 
 <script>
-  const words = ["Website Developer", "Tech Enthusiast", "Problem Solver"];
+  const words = [
+    "Website Developer",
+    "Fullstack Developer",
+    "Data Analyst",
+    "System Analyst",
+  ];
+  const roleElement = document.getElementById("role")!;
+
   let i = 0;
   let j = 0;
   let currentWord = "";
@@ -114,10 +125,7 @@ import MyProfile from "../assets/img/my-profile.png";
   function type() {
     currentWord = words[i];
     if (isDeleting) {
-      document.getElementById("role").textContent = currentWord.substring(
-        0,
-        j - 1
-      );
+      roleElement.textContent = currentWord.substring(0, j - 1);
       j--;
       if (j == 0) {
         isDeleting = false;
@@ -127,10 +135,7 @@ import MyProfile from "../assets/img/my-profile.png";
         }
       }
     } else {
-      document.getElementById("role").textContent = currentWord.substring(
-        0,
-        j + 1
-      );
+      roleElement.textContent = currentWord.substring(0, j + 1);
       j++;
       if (j == currentWord.length) {
         isDeleting = true;
